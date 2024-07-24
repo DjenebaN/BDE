@@ -1,0 +1,365 @@
+#Header {
+    height: 80px;
+    background: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#Header img{
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#Phrase {
+    height: 40px;
+    background: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+#Menu {
+    height: 55px;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Menu ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#Menu ul li {
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0px 50px;
+}
+
+#Menu ul li a{
+    text-decoration: none;
+}
+
+#Menu ul li a:hover{
+    background-color: #2227258a; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#Contenu {
+    height:1800px; 
+    background: pink;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.ContenuH {
+    height:900px; 
+    background: pink;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+#Footer {
+    height: 100px;
+    background:green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#Footer img{
+    height: 50px;
+    margin: 50px;
+}
+
+.blockH {
+    background-color: bisque;
+    float: center;
+    height: 700px;
+    width: 1200px;
+    padding: 20px;
+    margin-top: 70px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    background-color: bisque;
+    float: center;
+    height: 700px;
+    width: 350px;
+    padding: 20px;
+    margin-top: 70px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inblockH{
+    height: 500px;
+    width: 900px;
+    background: red;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 6px 6px;
+    color: rgb(226, 138, 22);
+    outline-style: dotted;
+    outline-color: black;
+    outline-width: 3px;
+}
+
+.inblock{
+    height: 500px;
+    width: 300px;
+    background: red;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 6px 6px;
+    color: rgb(226, 138, 22);
+    outline-style: dotted;
+    outline-color: black;
+    outline-width: 3px;
+}
+
+.inblock:hover {
+    color: rgb(22, 124, 214);
+    box-shadow: 8px 8px;
+}
+
+.image {
+    width: 80%;
+    height: 300px;
+    display: flex;
+}
+
+.ref{
+    text-decoration: none;
+}
+
+.block1 {
+    background-color: bisque;
+    height: 900px;
+    width: 750px;
+    padding: 20px;
+    margin-left:95px;
+    margin-right: 40px;
+    margin-top: 120px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 6px 6px;
+    color: rgb(226, 138, 22);
+    outline-style: dotted;
+    outline-color: black;
+    outline-width: 3px;
+}
+
+.img-content {
+    height: 500px;
+    margin: 20px;
+}
+
+#Contenu1 {
+    height:1270px; 
+    background: pink;
+    display: flex;
+    flex-direction: row; 
+    justify-content: left;
+}
+
+
+#blockInsc{
+    background-color: bisque;
+    height: 400px;
+    width: 450px;
+    margin-top: 70px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 6px 6px;
+    color: rgb(226, 138, 22);
+    outline-style: dotted;
+    outline-color: black;
+    outline-width: 3px;
+}
+
+#block2{
+    height: 700px;
+    width: 450px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+
+#blocRegles{
+    background-color: bisque;
+    height: 300px;
+    width: 450px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 6px 6px;
+    color: rgb(226, 138, 22);
+    outline-style: dotted;
+    outline-color: black;
+    outline-width: 3px;
+}
+
+#loginPage{
+    background-color: blueviolet;
+    height: 500px;
+    width: 1200px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+#inscForm{
+    background-color: bisque;
+    height: 300px;
+    width: 450px;
+    margin-top: 50px;
+    margin-right: 65px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px  0px 20px;
+    color: rgb(226, 138, 22);
+    outline-style: dotted;
+    outline-color: black;
+    outline-width: 3px;
+}
+
+#conexForm{
+    background-color: bisque;
+    height: 300px;
+    width: 450px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 6px 6px;
+    color: rgb(226, 138, 22);
+    outline-style: dotted;
+    outline-color: black;
+    outline-width: 3px;
+}
+
+.form_style{
+    min-height: 30px;
+    margin-bottom: 5px;
+    border-width: 2px;
+    border-radius: 7px;
+}
+
+#Contenu2 {
+    height:800px; 
+    background: pink;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contactForm{
+    background-color: bisque;
+    height: 500px;
+    width: 450px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 6px 6px;
+    color: #e28a16;
+    outline-style: dotted;
+    outline-color: black;
+    outline-width: 3px;
+}
+
+.contact_style{
+    height: 30px;
+    margin-bottom: 5px;
+    border-width: 2px;
+    border-radius: 7px;
+}
+
+
+#choix{
+    height: 30px;
+    align-content: center;
+    align-items: center;
+}
+
+
+.button{
+        width: 100px;
+        background-color: rgb(0, 0, 0);
+        border-width: 2px;
+        color: black;
+        border-color: #e28a16;
+        border-radius: 7px;
+        box-shadow: 2px 2px;
+        color: blue;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+
+.button:hover{
+    background-color: #e28a16;
+    border-color: bisque;
+}
